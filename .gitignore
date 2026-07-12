@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Artefactos generados por la práctica (regenerables con semilla fija) ---
+# Se recrean ejecutando data_prep.py / baselines.py / shap_audit.py.
+# No los versionamos para mantener el repo ligero; el notebook ya lleva las
+# figuras embebidas. Los CSV de producción (cs_produccion1/2.csv) y el notebook
+# SÍ se versionan porque son los entregables.
+data/processed/
+models/
+outputs/
